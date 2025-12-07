@@ -1,0 +1,5 @@
+{
+  "name": "Konoha AI Comic Generator",
+  "description": "A comic generation tool using Gemini 3 Pro (Nano Banana Pro) to visualize the 'Leaf Village New Energy Plan' script with consistent anime styling.",
+  "requestFramePermissions": []
+}

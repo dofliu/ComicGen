@@ -1,3 +1,4 @@
+
 export interface ComicPanelData {
   id: number;
   act: string;
@@ -26,4 +27,16 @@ export interface PanelState {
 export interface GenerationConfig {
   aspectRatio: "16:9" | "1:1" | "4:3";
   stylePreset: string;
+}
+
+export type ModelId = 
+  | 'gemini-3-pro-image-preview'
+  | 'gemini-2.5-flash-image'
+  | 'imagen-3.0-generate-001'
+  | 'gpt-image-1';
+
+export interface AppSettings {
+  googleApiKey: string;
+  openaiApiKey: string;
+  selectedModel: ModelId;
 }
